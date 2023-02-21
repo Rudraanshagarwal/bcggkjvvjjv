@@ -1,0 +1,14 @@
+body{
+    background:linear-gradient(pink,aqua) ;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 4px 4px 100px rgb(255, 0, 0);}
+    to{box-shadow: 4px 4px 100px rgb(224, 252, 160);}
+}
